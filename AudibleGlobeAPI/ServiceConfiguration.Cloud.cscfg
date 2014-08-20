@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AudibleGlobeAPI" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="AudibleGlobeAPIWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=audibleglobeapi;AccountKey=7QA5FWsmNIegJyN1clbRpJeJCfiACc9HDOHsv3eQgOIYzRrC+OWj/ByaVhovZpQKlqvqJ/Slpuauw0t4PTqZ0A==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
